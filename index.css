@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background: #111111;
+    padding: 30px;
+    text-align: center;
+}
+header h1{
+    color: #fff;
+    font-size: 40px;
+}
+nav{
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+}
+nav li a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color:#000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+nav li a:hover{
+    color:orange;
+}
+.home{
+    background-image: url(./images/pexels-lukas-574071.jpg);
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.home__content{
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 30px;
+    color:#fff;
+    text-align: center;
+}
+.home__content h2{
+    font-weight: 300;
+    margin-bottom: 38px;
+    font-size: 15px;
+}
+
+.home__content h2{
+    font-weight: 300px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.skills{
+    background-image: url('./images/skills_bg1.jpg');
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+.skills h3{
+    color:#fff;
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+.skills__img{
+    background: rgba(255, 255, 255,0.3);
+    border-radius: 12px;
+    padding-top: 35px;
+    text-align: center;
+}
+.skills__img img{
+    object-fit: contain;
+    width: 100%;
+    max-width: 900px;
+}
+.aboutme{
+background-image: url(./images/aboutus.jpg);
+padding: 30px;
+background-position: center;
+background-size: cover;
+text-align: center;
+color: #fff;
+text-transform: uppercase;
+}
+
+/*
+.aboutme__content p{
+    color:#fff;
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+*/
+
+/*
+.aboutme__content{
+color:#fff;
+padding-bottom: 20px;
+background: rgba(0, 0, 0,0.7);
+}*/
+.aboutme__content p{
+    line-height: 25px;
+    margin: 10px;
+    color: #000;
+}
+
+.aboutme__content{
+    background-color: rgba(255, 255, 255,0.3);
+    border-radius: 12px;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.contact{
+    background-image: url(./images/pexels-george-desipris-872420.jpg);
+    padding: 30px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+footer{
+    text-align: center;
+    background: #111111;
+    color:#fff;
+    padding: 20px;
+}
+
+
+.contact h3{
+    color:#fff;
+    text-align: center;
+    margin-bottom:20px;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.contact__form{
+    padding: 20px;
+    text-align: center;
+}
+.contact__form input{
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    width: 50%;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.contact__form button{
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
